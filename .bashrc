@@ -56,6 +56,7 @@ export VISUAL=nano
 #alias nano='edit'
 #alias snano='sedit'
 #alias vim='nvim'
+alias cat='batcat'
 
 # To have colors for ls and all grep commands such as grep, egrep and zgrep
 export CLICOLOR=1
@@ -110,7 +111,7 @@ alias da='date "+%Y-%m-%d %A %T %Z"'
 # Alias's to modified commands
 alias cp='cp -i'
 alias mv='mv -i'
-alias rm='trash -v'
+alias rm='rm -v'
 alias mkdir='mkdir -p'
 alias ps='ps auxf'
 alias ping='ping -c 10'
